@@ -1,0 +1,40 @@
+algoritmo "Dias do Mês"
+var
+    mes: inteiro
+
+inicio
+    // Loop infinito
+    enquanto (verdadeiro) faca
+        escreva("Digite o número do mês (1 a 12): ")
+        leia(mes)
+
+        escolha mes
+            caso 1:
+                escreva("Janeiro tem 31 dias.\n")
+            caso 2:
+                escreva("Fevereiro tem 28 ou 29 dias (dependendo se é ano bissexto).\n")
+            caso 3:
+                escreva("Março tem 31 dias.\n")
+            caso 4:
+                escreva("Abril tem 30 dias.\n")
+            caso 5:
+                escreva("Maio tem 31 dias.\n")
+            caso 6:
+                escreva("Junho tem 30 dias.\n")
+            caso 7:
+                escreva("Julho tem 31 dias.\n")
+            caso 8:
+                escreva("Agosto tem 31 dias.\n")
+            caso 9:
+                escreva("Setembro tem 30 dias.\n")
+            caso 10:
+                escreva("Outubro tem 31 dias.\n")
+            caso 11:
+                escreva("Novembro tem 30 dias.\n")
+            caso 12:
+                escreva("Dezembro tem 31 dias.\n")
+            caso contrario:
+                escreva("Mês inválido. Digite um número de 1 a 12.\n")
+        fimescolha
+    fimenquanto
+fimalgoritmo
